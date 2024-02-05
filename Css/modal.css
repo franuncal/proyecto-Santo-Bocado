@@ -12,12 +12,7 @@
   overflow: auto;
   z-index: 9;
   top: 12vh;
-  scrollbar-color: none;
 }
-
-.modal-container::-webkit-scrollbar {
-  display: none;
-} 
 
 .modal-header {
   display: flex;

@@ -31,10 +31,8 @@
 
 /* Titulo */
 .titulo {
-  background-image: linear-gradient(
-    rgba(0,0,0,0.6),
-    rgba(0,0,0,0.6)
-  ),url(/Assets/Img/portada1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Assets/Img/portada1.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,10 +44,10 @@
   padding: 15% 0;
 }
 
-.titulo h1{
+.titulo h1 {
   margin: 0;
   color: antiquewhite;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   font-size: 60px;
   font-weight: bold;
 }
@@ -58,7 +56,7 @@
   font-size: 30px;
   color: #c0b897;
   opacity: 0.7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Productos Card */
@@ -72,7 +70,7 @@
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   max-width: 300px;
   margin: 10px;
   text-align: center;
@@ -89,6 +87,13 @@
   font-family: sans-serif;
   color: #000;
   font-size: 22px;
+}
+
+.descripcion {
+  font-family: sans-serif;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
 }
 
 .card button {
@@ -109,7 +114,7 @@
 
 /* Carrito */
 .total-carrito {
-  font-family:sans-serif;
+  font-family: sans-serif;
   color: #c0b897;
   font-size: 25px;
   padding: 20px;
@@ -143,4 +148,3 @@
   background-color: #c0b897;
   padding: 5px 5px;
 }
-

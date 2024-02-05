@@ -9,7 +9,7 @@ const getProductos = async () => {
   const response = await fetch("Data/Productos.json");
   const Productos = await response.json();
 
-  //Funcion Buscar productos en JSON
+  //Funcion Buscar y mostrar productos - JSON
   Productos.forEach((productos) => {
     let content = document.createElement("div");
     content.className = "card";
@@ -17,6 +17,7 @@ const getProductos = async () => {
   <img src="${productos.img}">
   <h3 class>${productos.nombre}</h3>
   <p class="price">${productos.precio} $</p>
+  <p class="descripcion">${productos.descripcion} </p>
   `;
 
     menuContent.append(content);
