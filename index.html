@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="stylesheet" href="Css/modal.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <title>Santo Bocado Sandwichs</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="nav-container">
+    <nav class="navbar">
+      <h1 class="navbar-logo">Casa de Sandwichs</h1>
+      <h1 class="ver-carrito" id="verCarrito"> 🛒 <span id="cantidadCarrito" class="cantidadCarrito"></span></h1>
+    </nav>
+  </div>
+  <!-- Titulo -->
+  <div class="titulo">
+    <div class="titulo-container">
+      <h1>Santo Bocado Sandwichs</h1>
+      <p>¡Sabores del Mundo!</p>
+    </div>
+  </div>
+  <!-- Content -->
+  <div id="menuContent" class="menu-content"></div>
+  <!-- Mostrar Carrito -->
+  <div id="modal-container" class="modal-container"></div>
+  <!-- Carrito  -->
+  <div id="carrito-container" class="carrito-container"></div>
+
+  <script src="Js/app.js"></script>
+  <script src="Js/carrito.js"></script>
+</body>
+
+</html>

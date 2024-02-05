@@ -1,0 +1,144 @@
+/* Navbar */
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: #1b1b1b;
+}
+
+.navbar-logo {
+  justify-self: start;
+  margin-left: 20px;
+  color: #c0b897;
+  margin-top: 4vh;
+  cursor: pointer;
+}
+
+.ver-carrito {
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 4vh;
+  cursor: pointer;
+}
+
+/* Titulo */
+.titulo {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+  ),url(/Assets/Img/portada1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
+.titulo-container {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.titulo h1{
+  margin: 0;
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.titulo p {
+  font-size: 30px;
+  color: #c0b897;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Productos Card */
+.menu-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card > img {
+  height: 250px;
+  width: 250px;
+  padding: 15px;
+}
+
+.price {
+  font-family: sans-serif;
+  color: #000;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #000;
+  background-color: #c0b897;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* Carrito */
+.total-carrito {
+  font-family:sans-serif;
+  color: #c0b897;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.eliminar-productos {
+  cursor: pointer;
+}
+
+.cantidadCarrito {
+  background-color: #c0b897;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 4px;
+  top: 40px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+
+.restar {
+  cursor: pointer;
+  background-color: #c0b897;
+  padding: 5px 5px;
+}
+.sumar {
+  cursor: pointer;
+  background-color: #c0b897;
+  padding: 5px 5px;
+}
+

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sandwichs Texas",
+    "precio": 3900,
+    "img": "https://tofuu.getjusto.com/orioneat-prod-resized/FF7u68bk2EKDCqj6s-1200-1200.webp",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Sandwichs New York",
+    "precio": 3900,
+    "img": "https://d1ralsognjng37.cloudfront.net/4839d5a4-122c-4fdf-a205-7115d7e618e3.jpeg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Sandwichs Di Commo",
+    "precio": 3900,
+    "img": "https://tofuu.getjusto.com/orioneat-prod-resized/ebXAxT8KeS9rRNPdt-1200-1200.jpeg",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Sandwichs Madrid",
+    "precio": 3900,
+    "img": "https://d1ralsognjng37.cloudfront.net/275886f4-3f3a-4475-a05e-e019d0d69a94.jpeg",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Postre Oreo",
+    "precio": 2700,
+    "img": "https://www.tictacyummy.com/wp-content/uploads/2016/04/FINAL.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Postre Dulce de Leche",
+    "precio": 2700,
+    "img": "https://www.lanacion.com.ar/resizer/v2/mousse-de-chocolate-y-dulce-de-RE5VHIGMQZDQDOKL43I24ONPQI.jpg?auth=6b387fc5f4ca002c7e88780c22cf661704116a67a927b0e838af77d458951b79&width=420&height=280&quality=70&smart=true",
+    "cantidad": 1
+  }
+]
