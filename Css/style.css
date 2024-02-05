@@ -13,6 +13,8 @@
 }
 
 .navbar-logo {
+  /* width: 2px;
+  height: 2px; */
   justify-self: start;
   margin-left: 20px;
   color: #c0b897;
@@ -34,9 +36,9 @@
     rgba(0,0,0,0.6)
   ),url(/Assets/Img/portada1.png);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  height: 50%;
+  height: 100%;
 }
 
 .titulo-container {
