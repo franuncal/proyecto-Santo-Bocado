@@ -66,7 +66,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir, sigue los pasos habitu
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [franunca@gmail.com].
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [franuncal@gmail.com].
 
 ---
 
