@@ -1,4 +1,4 @@
-const shopContent = document.getElementById("menuContent");
+const menuContent = document.getElementById("menuContent");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
@@ -9,18 +9,19 @@ const getProductos = async () => {
   const response = await fetch("Data/Productos.json");
   const Productos = await response.json();
 
+
   //Funcion Buscar y mostrar productos - JSON
   Productos.forEach((productos) => {
-    let content = document.createElement("div");
+    const content = document.createElement("div");
     content.className = "card";
     content.innerHTML = `
   <img src="${productos.img}">
   <h3 class>${productos.nombre}</h3>
   <p class="price">${productos.precio} $</p>
-  <p class="descripcion">${productos.descripcion} </p>
+  <p class="descripcion">${productos.descripcion}</p>
   `;
 
-    menuContent.append(content);
+    menuContent.appendChild(content);
 
     //Funcion Agregar al carrito
     let agregarAlCarrito = document.createElement("button");
@@ -28,7 +29,7 @@ const getProductos = async () => {
     agregarAlCarrito.className = "Agregar al Carrito";
     agregarAlCarrito.onclick = () => alerta();
 
-    content.append(agregarAlCarrito);
+    content.appendChild(agregarAlCarrito);
 
     function alerta() {
       Toastify({

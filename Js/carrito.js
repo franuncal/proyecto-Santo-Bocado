@@ -4,9 +4,7 @@ const pintarCarrito = () => {
   modalContainer.style.display = "flex";
   const modalHeader = document.createElement("div");
   modalHeader.className = "modal-header";
-  modalHeader.innerHTML = `
-  <h1 class="modal-header-title">Carrito</h1>
-  `;
+  modalHeader.innerHTML = `<h1 class="modal-header-title">Carrito</h1>`;
   modalContainer.appendChild(modalHeader);
 
   //Funcion cerrar vista del carrito
@@ -103,7 +101,7 @@ const pintarCarrito = () => {
       showConfirmButton: false,
       color: "#fff",
       background: "#000",
-      timer: 2000
+      timer: 2000,
     });
   });
 
