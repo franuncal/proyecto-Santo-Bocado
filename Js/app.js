@@ -6,7 +6,7 @@ const cantidadCarrito = document.getElementById("cantidadCarrito");
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const getProductos = async () => {
-  const response = await fetch("Data/Productos.json");
+  const response = await fetch("Productos.json");
   const Productos = await response.json();
 
 
