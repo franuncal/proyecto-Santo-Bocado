@@ -24,6 +24,10 @@ SANTO BOCADO es el proyecto final para el curso de JavaScript de Coder House. Un
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
+  
+## Librerias Utilizadas
+- **Sweet alert**
+- **Toastify JS**
 
 ---
 
@@ -62,7 +66,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir, sigue los pasos habitu
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [franunca@gmail.com].
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [franuncal@gmail.com].
 
 ---
 
