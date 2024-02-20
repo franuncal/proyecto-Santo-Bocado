@@ -51,9 +51,9 @@ SANTO BOCADO es el proyecto final para el curso de JavaScript de Coder House. Un
 
 - `Assets/`: Carpeta con archivos img.
 - `Css/`: Carpeta con archivos de estilos CSS.
-- `Data/`: Carpeta con archivo JSON.
 - `Js/`: Carpeta con archivos JavaScript.
 - `index.html`: Página principal.
+- `Productos.json`: Archivo JSON.
 - `readme.md`: Archivo README.md.
 
 ---
