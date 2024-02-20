@@ -6,9 +6,8 @@ const cantidadCarrito = document.getElementById("cantidadCarrito");
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const getProductos = async () => {
-  const response = await fetch("Productos.json");
-  const Productos = await response.json();
-
+  const response = await fetch("./Data/productos.json");
+  const Productos = await response.json();  
 
   //Funcion Buscar y mostrar productos - JSON
   Productos.forEach((productos) => {
@@ -16,8 +15,8 @@ const getProductos = async () => {
     content.className = "card";
     content.innerHTML = `
   <img src="${productos.img}">
-  <h3 class>${productos.nombre}</h3>
-  <p class="price">${productos.precio} $</p>
+  <h3 class="nombre">${productos.nombre}</h3>
+  <p class="precio">${productos.precio} $</p>
   <p class="descripcion">${productos.descripcion}</p>
   `;
 
@@ -35,7 +34,12 @@ const getProductos = async () => {
       Toastify({
         text: "Agregaste un producto al carrito",
         duration: 1500,
-        style: { background: "#000", color: "#c0b897", padding: "1rem", font: "arial", },
+        style: {
+          background: "#000",
+          color: "#c0b897",
+          padding: "1rem",
+          font: "arial",
+        },
       }).showToast();
     }
 
